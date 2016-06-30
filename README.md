@@ -42,3 +42,11 @@ It can be used as a abbreviations(Dr.) as well as sentence termination,Decimal n
 *Ideas to be formulated by the programmer. Lots of modifications can be made to make a more sophisticated decision tree.*  
 *Some numeric features can be used.*    
 *For Example - Probability of getting 'the' after a period is very high.*
+
+### Similarity between 2 Strings ###
+
+##### Given by Minimum Edit Distance #####
+**Definition** - Minimum number of insertion,deletion and substitution required to convert a string to another.
+*Used in computational Biology*
+
+**CAN BE SOLVED USING DYNAMIC PROGRAMMING**
