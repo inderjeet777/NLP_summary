@@ -1,4 +1,4 @@
-# Natural Language Processing
+# Natural Language Processing - [Stanford University](https://class.coursera.org/nlp/lecture)
 ---
 #### Word Tokenization
 Converting a large text into a list of words/tokens. It can be done by converting all the alphanumeric characters into linebreaks.
@@ -49,4 +49,8 @@ It can be used as a abbreviations(Dr.) as well as sentence termination,Decimal n
 **Definition** - Minimum number of insertion,deletion and substitution required to convert a string to another.
 *Used in computational Biology*
 
-**CAN BE SOLVED USING DYNAMIC PROGRAMMING**
+**CAN BE SOLVED USING DYNAMIC PROGRAMMING**  
+*Substitution is given twice the weight of insertion and deletion*  
+*Weights are added to each insertion and deletion operation as well.For example - 'e' and 'i' are likely to be used mistaken in a word. So, substitution cost for them is taken lesser.*  
+**It is also important to know the proper alignment of the 2 strings for which minimum edit distance is found .**  
+*Both time and space complexity is O(nm), where 'n' and 'm' are the lengths of the two strings respectively.*  
